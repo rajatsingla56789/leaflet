@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+<body>
+  <h2>Animal Tracking!!</h2>
+  <div class="map-container">
+      <div class="map-frame">
+        <div id="map"></div>
+      </div>
+    </div>
+    <form [formGroup]="checkoutForm" id="form">
+      <label for="animal">Choose animal: </label>
+      <select name="Animal" id="animal">
+        <option value="Device1">Device1</option>
+        <option value="Device2">Device2</option>
+        <option value="Device3">Device3</option>
+        <option value="Device4">Device4</option>
+      </select>
+      <label for="radius">Radius  </label>
+      <input type="number" id="radi" value="100" >
+      <button class="button" type="submit">Submit</button>
+      <button class="button" onclick="reset()">Reset</button>
+    </form>
+</body>
+</html>

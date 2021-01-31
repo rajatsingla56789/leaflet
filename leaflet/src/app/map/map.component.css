@@ -1,0 +1,31 @@
+  .map-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 35px;
+    margin-bottom: 5px;
+  }
+  .map-frame {
+    border: 2px solid black;
+    height: 100%;
+  }
+  h2{
+    float: left;
+    margin-top: 0px;
+  }
+  #map {
+    height: 100%;
+  }
+  input,button,#animal{
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  button{
+    color:white;
+    background-color: black;
+  }
+  #form{
+    float: right;
+  }
